@@ -6,7 +6,7 @@ import subprocess
 import base64
 from PIL import Image
 from io import BytesIO
-from facereg import *
+from Face_authentication import *
 
 form=cgi.FieldStorage()
 
@@ -28,11 +28,10 @@ if(imgdata):
 		print("<h2> Hello User</h2><p>Authenticated with ")
 		print(conf)
 		print(" % accuracy!!</p><br>")
-		print("<a href='http://192.168.43.18:9876/hotspots.html'>Covid Hotspot Data</a>")
 	else:
 		print("<h2> Sorry,</h2>")
 		print("<p>You are not authenticated..please try again!</p>")
 		
-		print("<a href='http://192.168.43.18:9876/cgi-bin/neudock.py'> Home</a>")
+		print("<a href='http://192.168.43.18:9876/cgi-bin/home.py'> Home</a>")
 
 print("</body>")
