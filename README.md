@@ -11,4 +11,4 @@ This is a Web application deployed on Apache HTTP web server which is working on
 4) Run the modelcreation.py file on host system which will create the model and ploce model in '/var/www/cgi-bin' repo. 
 5) Place the other files also in the same repo '/var/www/cgi-bin'.
 6) Install opencv and opencv-contrib-python libraries in docker using pip install openCV opencv-contrib-python.
-7) As the 80 port of the docker has been exposed and linked to 91 port number of host system so while running the web app use the url as: 'http://ip_of_base_system:123'.
+7) As the 80 port of the docker has been exposed and linked to 91 port number of host system so while running the web app use the url as: 'http://ip_of_base_system:123/home.py'.
