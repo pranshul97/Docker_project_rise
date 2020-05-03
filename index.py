@@ -48,7 +48,7 @@ print("""
 """)
 
 
-print("""<form action='http://192.168.43.18:9876/cgi-bin/major.py' method='post'>
+print("""<form action='http://192.168.43.18:9876/cgi-bin/redirection.py' method='post'>
 <input type ='hidden' name='n' id='n'>
 <input type='submit' id='upload' value='upload' style='display:none;'>
 </form>
